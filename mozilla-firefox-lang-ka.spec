@@ -1,12 +1,12 @@
 %define		_lang		ka
 Summary:	Georgian resources for Mozilla-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.13
-Release:	2
+Version:	2.0.0.14
+Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	286a7821b6a4416be13d92b961a1b647
+# Source0-md5:	76db8a6275923a30fca9e23cbc019f5a
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
