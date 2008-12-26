@@ -1,12 +1,13 @@
 %define		_lang		ka
-Summary:	Georgian resources for Mozilla-firefox
+Summary:	Georgian resources for Firefox
+Summary(pl.UTF-8):	Gruzińskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	ac4c9586d10b55c3f94374e6e9538c72
+# Source0-md5:	f6e31dbe777cf563e5340fc118fda527
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
@@ -17,7 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Georgian resources for Mozilla-firefox.
+Georgian resources for Firefox.
+
+%description -l pl.UTF-8
+Gruzińskie pliki językowe dla Firefoksa.
 
 %prep
 
