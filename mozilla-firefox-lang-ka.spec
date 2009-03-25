@@ -2,12 +2,12 @@
 Summary:	Georgian resources for Firefox
 Summary(pl.UTF-8):	Gruzińskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	f6e31dbe777cf563e5340fc118fda527
+# Source0-md5:	6ca7b098bd2f6157ad4e67f2e95a33ec
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
